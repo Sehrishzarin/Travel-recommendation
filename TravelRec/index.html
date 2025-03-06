@@ -1,0 +1,133 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.5">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="travel_recommendation.css">
+    <title>TravelBloom</title>
+</head>
+<body>
+    <nav class="navbar">
+    <div class="logo">
+        <i class="fa-sharp-duotone fa-solid fa-plane"></i>
+        <p><i>.TravelBloom.</i></p>
+    </div>
+    <div class="menu">
+       <a href="#Home">Home</a> 
+       <a href="#AboutUs">About Us</a> 
+       <a href="#ContactUs">Contact Us</a> 
+    </div>
+    <div class="search search-container">
+        <input type="text" placeholder="  Enter a destination or keyword" id="destinationInput" ><i class="fa-solid fa-magnifying-glass-location"></i>
+    <button class="srchBtn" id= "btnSearch" type="submit">Search</button>
+    <button class="srchBtn1" id="btnClear" type="button">Clear</button>
+    </div>
+
+</nav>
+
+<div class="home" id="Home">
+    
+    <div class="right">
+        <div class="vertical"></div>
+        <i class="fa-brands fa-x-twitter"></i>
+        <i class="fa-brands fa-square-youtube"></i>
+        <i class="fa-brands fa-square-instagram"></i>
+        <i class="fa-brands fa-facebook"></i>
+        
+    </div>
+    <div class="center">
+        <h1>Explore <br>Dream <br>Destination</h1>
+        <p>It encourages exploration of unfamiliar,<br>territories, embracing diverse cultures and <br>landscapes, while pursuing the desired <br>destination that captivates the heart and <br>ignites the sense of wonder.</p>
+        <button>Book Now</button>
+</div>
+   <div class="countries" id="searchDestinations">
+    <div id="result"></div>
+   </div>
+    </div>
+
+    <div class="about" id="AboutUs">
+        <div class="about-container">
+        <div class="right">
+            <div class="vertical"></div>
+            <i class="fa-brands fa-x-twitter"></i>
+            <i class="fa-brands fa-square-youtube"></i>
+            <i class="fa-brands fa-square-instagram"></i>
+            <i class="fa-brands fa-facebook"></i>
+                 
+        </div>
+       <div class="aboutTop">
+        <h1>About US</h1>
+        <p>Welcome to our Company! We are a team of passionate individuals dedicted to providing excellent services/products to our customers.<br><b> Our mission is to provide the best experience for people traveling to different destinations around the world.<br>Our values include integrity, innovation, cutomer satisfaction and team work. <b> We believe in putting our customers first and working together to achieve our goals <br> Feel free to explore our website to learn more about what we offer!  </p>
+       </div> 
+      <div class="aboutBottom">
+        <h1>Our <br>Team</h1>
+        <div class="members">
+           
+            <div class="member">
+                <div class="icon"><i class="fa-sharp-duotone fa-solid fa-user"></i></div>
+                <div class="details">
+                    <h4>Gowtham</h4>
+                    <p>Gowtham is responsible <br>for....</p>
+                    <button>CEO</button>
+                </div>
+            </div>
+        </div>
+        <div class="members">
+           
+            <div class="member">
+                <div class="icon"> <i class="fa-sharp-duotone fa-solid fa-user"></i></div>
+                <div class="details">
+                    <h4>Celina Thomas</h4>
+                    <p>Celina Thomas is responsible <br>for....</p>
+                    <button>Team Lead</button>
+                </div>
+            </div>
+        </div>
+        <div class="members">
+            
+            <div class="member">
+                <div class="icon"><i class="fa-sharp-duotone fa-solid fa-user"></i></div>
+                <div class="details">
+                    <h4>Anderson</h4>
+                    <p>Anderson is responsible <br>for....</p>
+                    <button>Delivery Head</button>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <div class="contact" id="ContactUs">
+        <div class="contact-container">
+        <div class="right">
+            <div class="vertical"></div>
+           <i class="fa-brands fa-x-twitter"></i>
+            <i class="fa-brands fa-square-youtube"></i>
+            <i class="fa-brands fa-square-instagram"></i>
+            <i class="fa-brands fa-facebook"></i>
+        </div>
+        <div class="contact-details">
+            <h1>Contact Us <br>Get in Touch</h1>
+            <div class="form">
+            <form action="">
+                <label for="">Name:</label> <br>
+                <input type="text"><br>
+                <label for="">Email:</label> <br>
+                <input type="text"><br>
+                <label for="">Message:</label> <br>
+                <textarea name="" id="" cols="55" rows="15"  ></textarea><br>
+                <button>Submit</button>
+
+            </form>
+        </div>
+        </div>
+    </div>
+    </div>
+    
+   
+<script src="travel_recommendation.js"></script>    
+</body>
+</html>
